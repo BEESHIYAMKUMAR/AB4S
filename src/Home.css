@@ -4,6 +4,8 @@
 Utilities
 ======================== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro:300,700&display=swap");
 
 * {
     box-sizing: border-box;
@@ -69,6 +71,14 @@ Utilities
   .container {
     margin: 0 auto;
     max-width: 996px;
+  }
+  .ourteam--section {
+    display: flex;
+    padding: 70.33px 85.33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.667px;
   }
   
   /* ========================
@@ -205,7 +215,7 @@ Utilities
   }
   
   .intro .container, .features .container, .portfolio .container, .contact .container {
-    padding: 5em 0;
+    padding: 3em 0;
   }
   
   .intro, .features, .portfolio, .contact {
@@ -213,7 +223,7 @@ Utilities
   }
   
   .intro {
-    background-color: #E74C3C;
+    background-color: #f77462;
     color: #fff;
   }
   
@@ -228,13 +238,18 @@ Utilities
   }
   
   .features .col-3 {
-    /* margin: 4em auto; */
+    margin: 4em auto;
     width: 100%;
   }
   
   .portfolio {
-    background-color: #4aaff2;
-    color: #fff;
+    /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);  */
+    color: #fff;   
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+    background-image: -webkit-radial-gradient(#374566, #010203);
+    background-image: -moz-radial-gradient(#374566, #010203);
+    background-image: -o-radial-gradient(#374566, #010203);
+    background-image: radial-gradient(#374566, #010203); 
   }
   
   .gallery .gallery-image {
@@ -473,15 +488,15 @@ Utilities
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
     right: auto;
-    left: -15px;
-    border-right-width: 15px;
+    left: -5px;
+    border-right-width: 5px;
     border-left-width: 0;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:after {
     right: auto;
-    left: -14px;
-    border-right-width: 14px;
+    left: -5px;
+    border-right-width: 5px;
     border-left-width: 0;
 }
 
@@ -689,8 +704,9 @@ Utilities
 .testimonial {
   background-color: white;
   text-align: center;
+  margin-top: 20px;
   padding: 30px 30px 50px;
-  margin: 100px 15px 160px;
+  margin: 55px 15px 160px;
   position: relative;
 }
 
@@ -723,8 +739,9 @@ Utilities
   font-size: 14px;
   color: #2a2929;
   text-align: justify;
-  margin-bottom: 30px;
-  opacity: 0.9;
+  margin-bottom: 20px;
+  opacity: 0.9;  
+  
 }
 
 .testimonial .testimonial-content {
@@ -737,7 +754,7 @@ Utilities
   display: inline-block;
   border: 4px solid white;
   border-radius: 50%;
-  box-shadow: 0 0 4px 4px #016d9b;
+  box-shadow: 0 0 4px 4px #022736;
   overflow: hidden;
   z-index: 1;
   position: relative;
@@ -799,7 +816,7 @@ Utilities
 }
 .slider-container .arrow-left {
   position: absolute;
-  left: 1%;
+  left: -20%;
   top: 50%;
   transform: translate3d(0, -50%, 0);
   color: white;
@@ -817,7 +834,7 @@ Utilities
 }
 .slider-container .arrow-right {
   position: absolute;
-  right: 1%;
+  right: -20%;
   top: 50%;
   transform: translate3d(0, -50%, 0);
   color: white;
@@ -1134,8 +1151,141 @@ Utilities
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
-
 }
 
+/* Begin Right Contact Page */
+.icon {
+	background-color: white;
+	border-radius: 30px;
+	padding: 15px;
+  vertical-align: middle;
+}
+
+.contact-info {
+	display: inline-block;
+	padding: 4px 20px 0px 20px;
+}
+
+.address-line {
+	margin-top: 40px;
+  text-align: center;
+}
+
+.col-1 {
+	width: 730px;
+  text-align: center;
+}
+
+.textarea{
+  height: 20px;
+}
+
+.col-2 {
+	flex: 1 1 auto;
+	background-color: white;
+}
+
+.contact-info-title {
+	color: #01bdd4;
+  font:bold;
+}
+
+.form-row {
+	padding-bottom: 30px;
+}
+
+/*contact ends*/
+
+/*mission starts*/
+  .h-100vh { 
+    height: 100vh; 
+}
+  .sub-text { 
+    font-family: 'Source Sans Pro', "Arial", sans-serif; 
+    font-size: 24px; 
+}
+  .owl-theme .owl-controls .owl-buttons .owl-prev { 
+    margin-left: -6%; 
+}
+  .owl-theme .owl-controls .owl-buttons .owl-next { 
+    margin-right: -5%; 
+}
+
+ .owl-carousel.main-carousel h2 { 
+    font-family: 'Source Sans Pro', "Arial", sans-serif; 
+    font-size: 50px; 
+    line-height: 1; 
+}
+  .owl-carousel.main-carousel h2 span { 
+    font-size: 53px; 
+    font-weight: 600; 
+}
+  .main-carousel .slider-img { 
+    width: 100%; 
+}
+  .main-carousel .slider-img img { 
+    margin: auto 0; 
+}
+  .carousel-wrap { 
+    margin: 90px auto; 
+    padding: 0 5%; 
+    width: 80%; 
+    position: relative; 
+}
+
+.carousel-control { 
+  background: none !important; 
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item { 
+  position: relative; 
+  z-index: 100;  
+}
+.owl-carousel.main-carousel .owl-dots { 
+  text-align: center; 
+  padding-top: 10px; 
+}
+
+/*-----slider-------*/
+.owl-carousel.main-carousel .owl-dots .owl-dot { 
+  border-radius: 50%; 
+  width: 15px; 
+  height: 15px; 
+  margin-left: 2px; 
+  margin-right: 2px; 
+  background: #ccc; 
+  border: none; 
+}
+
+.owl-carousel.main-carousel .owl-dots .owl-dot.active, .owl-carousel.main-carousel .owl-dots .owl-dot:hover { 
+  background: #1AA8E2; 
+}
+.owl-nav > div { 
+  margin-top: -26px; 
+  position: absolute; 
+  top: 50%; 
+  color: #cdcbcd; 
+}
+.owl-nav i { 
+  font-size: 52px; 
+}
+div.owl-buttons { 
+  display: table; 
+  height: 15vh; 
+}
+.owl-buttons { display: block; }
+
+.owl-carousel:hover .owl-buttons { display: block; }
+
+.carousel-inner { overflow: visible; }
+
+.owl-item { text-align: center; }
+
+.owl-theme .owl-controls .owl-buttons div { background: transparent; color: #869791; font-size: 40px; line-height: 300px; margin: 0; position: absolute; top: 0; }
+
+.owl-theme .owl-controls .owl-buttons .owl-prev { left: 0; margin-left: -8%; }
+
+.owl-theme .owl-controls .owl-buttons .owl-next { right: 0; margin-right: -8%; }
 
 

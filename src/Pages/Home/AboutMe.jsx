@@ -7,6 +7,7 @@ export default function AboutMe() {
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
                     <p>At AlphaBeta4Success, our distinctive approach in one-to-one and small group online classes is dedicated to fostering the holistic development of children. We believe in the power of personalized attention, guiding each child to unlock their full potential and cultivate a rich tapestry of knowledge and skills. Welcome to a transformative educational journey where AB4S paves the way for unparalleled growth and success.</p>
+                    <br></br>
                 </div>
             </div>
             <div class="row">
@@ -18,7 +19,7 @@ export default function AboutMe() {
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2021-2022</h4>
+                                    <h4>2021-2022</h4><br></br>
                                     <h4 class="subheading">Our Humble Beginnings</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -33,7 +34,7 @@ export default function AboutMe() {
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2022</h4>
+                                    <h4>March 2022</h4><br></br>
                                     <h4 class="subheading">An Agency is Born</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -47,7 +48,7 @@ export default function AboutMe() {
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2023</h4>
+                                    <h4>March 2023</h4><br></br>
                                     <h4 class="subheading">Transition to Full Service</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -61,7 +62,7 @@ export default function AboutMe() {
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>January 2024</h4>
+                                    <h4>January 2024</h4><br></br>
                                     <h4 class="subheading">Phase Two Expansion</h4>
                                 </div>
                                 <div class="timeline-body">

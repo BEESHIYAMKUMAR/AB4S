@@ -1,8 +1,15 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
+  
+  const navigate=useNavigate();
+
+  function handleclick (){
+    navigate("/Login")
+  }
 
   const toggleNav = () => {
     setNavActive(!navActive);
@@ -67,7 +74,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="Mission"
               className="navbar--content"
             >
               Mission &amp; Vision
@@ -117,18 +124,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Login"
-        className="btn btn-outline-primary"
-      >
-        Login
-      </Link>
+      <button type="submit" class="btn btn-outline-primary" onClick={handleclick}>Login</button>
     </nav>
   );
 }

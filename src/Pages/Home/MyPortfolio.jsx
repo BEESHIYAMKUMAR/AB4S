@@ -7,7 +7,7 @@ export default function MyPortfolio() {
         <div class="container">
           <h2>Meet Our Team</h2>    
           <div class="row">
-            <div id="testimonial-slider" class="owl-carousel">
+            <div id="testimonial-slider">
               <div class="testimonial">
                 <span class="icon fa fa-quote-left"></span>
                 <p class="description">

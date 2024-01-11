@@ -3,27 +3,30 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Mission",
+      "header1": "Foster Academic Excellence:",
+      "header2": "Remove Geographic Barriers:",
+      "header3": "Promote Inclusivity:",
+      "header4": "Enhance Learning Flexibility:",
+      "header5": "Cultivate Lifelond Learning:",
+      "header6": "Empower Educators:",
+      "header7": "Drive affordability:",
+      "header8": "Leverage Technology:",
+      "description1": " We are committed to helping students to reach their full academic potential by offering tailored educational programs and personalized support.",
+      "description2": " We believe that education should know no boundaries. Our platform enable students from around the world to access world class education.",
+      "description3": " We strive to create a diverse and inclusive learning environment, Welcoming students from all walks of life.",
+      "description4": " We provide flexible learning options, accommodating various curricula and schedules to meet the diverse needs of our students.",
+      "description5": " We instill a love for learning, encouraging students to become lifelong learners, well-equipped to thrive in an ever ever-changing world.",
+      "description6": " We support our educators with tools and resources they need to be effective, innovative and inspiring educators.",
+      "description7": " We make high quality education affordable and accessible to students and families, ensuring that cost is not barrier to academic success.",
+      "description8": " We harness the power of technology to enhance the learning experience, making it engaging, interactive and efficient."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    }
+      "title": "Vision",
+      "description1": "To be the global leader in online education, empowering students to realize their full potential and achieve academic excellence regardless of their geographic location or socio-economic background."
+    }   
   ],
   "portfolio": [
     {
