@@ -1,82 +1,66 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
+import "./Homescreen/Login.css"
 
 function Login() {
   return (
-    <div class="container white z-depth-2">
-  <ul class="tabs teal">
-    <li class="tab col s3"><a class="white-text active" href="#login">login</a></li>
-    <li class="tab col s3"><a class="white-text" href="#register">register</a></li>
-  </ul>
-  <div id="login" class="col s12">
-    <form class="col s12">
-      <div class="form-container">
-        <h3 class="teal-text">Hello</h3>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate"/>
-            <label for="email">Email</label>
+    <div class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Responsive Registration Form</h2>
+    </div>
+    <div class="row clearfix">
+      <div class="">
+        <form>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required />
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="password" type="password" class="validate"/>
-            <label for="password">Password</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="password" name="password" placeholder="Password" required />
           </div>
-        </div>
-        <br></br>
-        <center>
-          <button class="btn waves-effect waves-light teal" type="submit" name="action">Connect</button>
-          <br></br>
-          <br></br>
-          <a href="">Forgotten password?</a>
-        </center>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="password" name="password" placeholder="Re-type Password" required />
+          </div>
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="First Name" />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Last Name" required />
+              </div>
+            </div>
+          </div>
+              <div class="input_field radio_option">
+              <input type="radio" name="radiogroup1" id="rd1"/>
+              <label for="rd1">Male</label>
+              <input type="radio" name="radiogroup1" id="rd2"/>
+              <label for="rd2">Female</label>
+              </div>
+              <div class="input_field select_option">
+                <select>
+                  <option>Select a country</option>
+                  <option>India</option>
+                  <option>UK</option>
+                  <option>US</option>
+                  <option>Australia</option>
+                </select>
+                <div class="select_arrow"></div>
+              </div>
+            <div class="input_field checkbox_option">
+              <input type="checkbox" id="cb1"/>
+          <label for="cb1">I agree with terms and conditions</label>
+            </div>
+            <div class="input_field checkbox_option">
+              <input type="checkbox" id="cb2"/>
+          <label for="cb2">I want to receive the newsletter</label>
+            </div>
+          <input class="button" type="submit" value="Register" />
+        </form>
       </div>
-    </form>
-  </div>
-  <div id="register" class="col s12">
-    <form class="col s12">
-      <div class="form-container">
-        <h3 class="teal-text">Welcome</h3>
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate"/>
-            <label for="last_name">First Name</label>
-          </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate"/>
-            <label for="last_name">Last Name</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate"/>
-            <label for="email">Email</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email-confirm" type="email" class="validate"/>
-            <label for="email-confirm">Email Confirmation</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="password" type="password" class="validate"/>
-            <label for="password">Password</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="password-confirm" type="password" class="validate"/>
-            <label for="password-confirm">Password Confirmation</label>
-          </div>
-        </div>
-        <center>
-          <button class="btn waves-effect waves-light teal" type="submit" name="action">Submit</button>
-        </center>
-      </div>
-    </form>
+    </div>
   </div>
 </div>
   );

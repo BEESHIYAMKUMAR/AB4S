@@ -42,8 +42,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        {/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
-        <p className="section--title">AB4S - Dare to Dream Big.</p>
+        <img src="./img/Header_logo_small.png" alt="AB4S"/>
       </div>
       <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
@@ -106,7 +105,7 @@ function Navbar() {
               className="navbar--content"
             >
               Our Team
-            </Link>
+.            </Link>
           </li>
           <li>
             <Link
@@ -124,7 +123,10 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <button type="submit" class="btn btn-outline-primary" onClick={handleclick}>Login</button>
+      <h6></h6>
+      <div>
+      <button type="submit" class="btn btn-outline-primary" onClick={() => {navigate("/Login")}}>Login</button>
+      </div>
     </nav>
   );
 }
