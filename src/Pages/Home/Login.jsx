@@ -7,20 +7,11 @@ function Login() {
     <div class="form_wrapper">
   <div class="form_container">
     <div class="title_container">
-      <h2>Responsive Registration Form</h2>
+      <h2>Registration Form</h2>
     </div>
     <div class="row clearfix">
       <div class="">
         <form>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Password" required />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Re-type Password" required />
-          </div>
           <div class="row clearfix">
             <div class="col_half">
               <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
@@ -33,11 +24,43 @@ function Login() {
               </div>
             </div>
           </div>
-              <div class="input_field radio_option">
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="mobile" name="mobile" placeholder="Mobile Number with country code" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="whatsapp" name="whatsapp" placeholder="Whatsapp Number with country code" required />
+          </div>          
+          <div class="col_half">
+            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+              <div class="input_field radio_option">              
               <input type="radio" name="radiogroup1" id="rd1"/>
               <label for="rd1">Male</label>
               <input type="radio" name="radiogroup1" id="rd2"/>
               <label for="rd2">Female</label>
+              </div>  
+            </div>
+          </div>
+              <div class="input_field radio_option">              
+              <input type="radio" name="radiogroup1" id="rd1"/>
+              <label for="rd1">Student</label>
+              <input type="radio" name="radiogroup1" id="rd2"/>
+              <label for="rd2">Tutor</label>
+              </div>
+              <div class="input_field select_option">
+              <select>
+                  <option>Select a Subject</option>
+                  <option>English</option>
+                  <option>Hindi</option>
+                  <option>Maths</option>
+                  <option>Physics</option>
+                  <option>Chemistry</option>
+                  <option>Biology</option>
+                  <option>Computer science</option>
+                </select>
+                <div class="select_arrow"></div>
               </div>
               <div class="input_field select_option">
                 <select>
@@ -51,11 +74,7 @@ function Login() {
               </div>
             <div class="input_field checkbox_option">
               <input type="checkbox" id="cb1"/>
-          <label for="cb1">I agree with terms and conditions</label>
-            </div>
-            <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb2"/>
-          <label for="cb2">I want to receive the newsletter</label>
+              <label for="cb1">I agree with terms and conditions</label>
             </div>
           <input class="button" type="submit" value="Register" />
         </form>

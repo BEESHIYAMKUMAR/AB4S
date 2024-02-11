@@ -56,7 +56,7 @@ Utilities
   }
   
   a, a:hover, a:focus, a:active, a:visited {
-    color: #f95442;
+    color: #e913ad;
     text-decoration: underline;
   }
   
@@ -65,7 +65,7 @@ Utilities
   ======================== */
   
   .container-fluid {
-    padding: 0 1em;
+    gap: 20px;
   }
   
   .container {
@@ -85,77 +85,7 @@ Utilities
   Navigation
   ======================== */
   
-  @keyframes show-header {
-      0% {
-          top: -4em;
-          opacity: 0;
-      }
-      100% {
-          top: 0;
-          opacity: 1;
-      }
-  }
   
-  nav {
-    background-color: #fff;
-    box-shadow: 0 2px 2px rgba(0,0,0,.45);
-    position: relative;
-    top: 0;
-  }
-  
-  nav a, nav a:hover, nav a:focus,  nav a:active, nav a:visited {
-    text-decoration: none;
-  }
-  
-  nav .brand {
-    display: block;
-    float: left;
-    font-size: 1.25em;
-    font-weight: 900;
-  }
-  
-  nav .brand a {
-    color: #444;
-    display: block;
-    padding: 1em 0;
-  }
-  
-  nav .nav-toggle {
-    color: #444;
-    cursor: pointer;
-    display: block;
-    float: right;
-    font-size: 1.25em;
-    padding: 1em 0;
-    z-index: 1000
-  }
-  
-  nav ul {
-    border-top: 1px solid #ccc;
-    clear: both;
-    list-style: none;
-    margin: 0 -1em;
-    padding: 0;
-    z-index: 999;
-  }
-  
-  nav ul li {
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-  }
-  
-  nav ul li a {
-    color: #444;
-    display: block;
-    padding: .75em;
-  }
-  
-  nav.sticky {
-    animation: show-header .5s ease;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
   
   /* ========================
   Sections
@@ -166,14 +96,16 @@ Utilities
     color: #fff;
   }
   .splash {
-    background: linear-gradient(rgba(44, 62, 80, 0.65), rgba(52, 152, 219, 0.65)),
-          url("./data/images/homepage1.jpg") no-repeat fixed center;
+    background: 
+    /* linear-gradient(to bottom, rgba(244, 244, 245, 0.918), rgba(241, 197, 230, 0.73)), */
+    /* linear-gradient(rgba(44, 62, 80, 0.65), rgba(52, 152, 219, 0.65)), */
+          url("./data/images/homepage6.jpg") no-repeat fixed center;
     background-size: cover;
-    color: #fff;
+    color: #242323;
   }
   
   .splash .container {
-    padding-top: 25vh; /* No JS fallback*/
+    padding-top: 20vh; /* No JS fallback*/
     padding-bottom: 45vh; /* No JS fallback*/
   }
   
@@ -215,11 +147,19 @@ Utilities
     width: 80px;
   }
   .splash .continue a:hover {
-    background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(88, 86, 86, 0.25);
   }
   
-  .intro .container, .features .container, .portfolio .container, .contact .container {
-    padding: 3em 0;
+  .intro .container, .portfolio .container {
+    padding: 2em 0;
+  }
+
+  .contact .container {
+    padding: 5em 0;
+  }
+
+  .features .container{
+    padding: 6em 0;
   }
   
   .intro, .features, .portfolio, .contact {
@@ -227,12 +167,13 @@ Utilities
   }
   
   .intro {
-    background-color: #f77462;
-    color: #fff;
+    background-color: #fffefd;
+    background-image: url("./data/images/about2.jpg");
+    color: #341329;
   }
   
   .intro a, .intro a:hover, .intro a:focus, .intro a:active, .intro a:visited {
-    color: #fff;
+    color: #341329;
   }
   
   .features img {
@@ -273,7 +214,7 @@ Utilities
   .contact form {
     background-color: #f0f0f0;
     border-radius: 4px;
-    border-top: 8px solid #E74C3C;
+    border-top: 8px solid purple;
     box-shadow: 0 1px 2px rgba(0,0,0,.15);
     padding: 1em;
   }
@@ -292,7 +233,7 @@ Utilities
   }
   
   .contact form input[type="submit"] {
-    background-color: #E74C3C;
+    background-color: purple;
     border-radius: 0;
     color: #fff;
     padding: 1em;
@@ -423,7 +364,7 @@ Utilities
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #dd9ed3;
 }
 
 .timeline-p-left> {
@@ -476,11 +417,11 @@ Utilities
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #696868;
     border-radius: 100%;
     text-align: center;
-    color: #f41212;
-    background-color: #1ee2e7;
+    color: #efe9e9;
+    background-color: #9a2675;
 }
 
 .timeline>li .timeline-image h4 {
@@ -1195,7 +1136,7 @@ Utilities
 }
 
 .contact-info-title {
-	color: #01bdd4;
+	color: purple;
   font:bold;
 }
 

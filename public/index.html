@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content=""/>
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" /> -->
@@ -259,6 +259,7 @@
       });
     </script>
     <script>
+      //login signup popup
       $(document).ready(function () {
       var mainOwl = $('.owl-carousel.main-carousel');
       mainOwl.owlCarousel({
@@ -300,6 +301,41 @@
       });
 
     });
+    </script>
+    <script>
+      $(document).ready(function() {
+  $('#modal_trigger').magnificPopup();
+});
+
+$(function(){
+  //Show Login Form
+  
+  $("#login_form").click(function() {
+    $(".social-login").hide();
+    $(".user-login").show();
+    $(".header-title").text("Have an Account?");
+    return false;
+  });
+  
+  // Return Login Home
+  $(".back-btn").click(function() {
+    $(".social-login").show();
+    $(".user-login").hide();
+    $(".register-form").hide();
+    $(".header-title").text("Login");
+    return false;
+  });
+  
+  // Go to Registration 
+  
+  $(".btn-sign-up").click(function() {
+    $(".social-login").hide();
+    $(".register-form").show();
+    $(".header-title").text("Registration");
+    return false;
+  });
+  
+});
     </script>
     <!--
       This HTML file is a template.

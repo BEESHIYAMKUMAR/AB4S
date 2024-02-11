@@ -172,7 +172,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Copyright &copy; AB4S 2024</p>
+        <p className="footer--content">Copyright &copy; 2024. AlphaBeta4Success. All Rights Reserved.</p>
         <div className="footer--social--icon">
           <ul>
             <li>

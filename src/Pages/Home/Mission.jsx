@@ -4,9 +4,9 @@ export default function Mission() {
     return (
         <section className="skills--section" id="Mission">  
         <div className="container">    
-        <p><span class="highlight-red">AlphaBeta4Success</span>,
+        <h3><p><span class="highlight-red">AlphaBeta4Success</span>,
         We are an organisation that is passionate about making a difference to young people in our communities.
-        </p><br></br>
+        </p></h3><br></br>
         <img src="./img/mission_header.png" alt="Mission"/>
         </div>          
         </section>
