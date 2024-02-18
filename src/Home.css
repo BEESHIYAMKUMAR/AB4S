@@ -246,13 +246,14 @@ Utilities
   
   .footer {
     background-color: #2C3E50;
-    color:  #fff;
+    color:  #fff;    
     font-size: 1.5em;
     text-align: center;
   }
   
   .footer .container {
     padding: 1em 0;
+    background-image: url("./data/images/footer.png");
   }
   
   .footer a {
@@ -1104,8 +1105,8 @@ Utilities
 }
 
 /* Begin Right Contact Page */
-.icon {
-	background-color: white;
+.icon1 {
+	background-color: rgb(245, 188, 227);
 	border-radius: 30px;
 	padding: 15px;
   vertical-align: middle;
@@ -1114,20 +1115,17 @@ Utilities
 .contact-info {
 	display: inline-block;
 	padding: 4px 20px 0px 20px;
-}
-
-.address-line {
-	margin-top: 40px;
-  text-align: center;
+  vertical-align: middle; 
 }
 
 .col-1 {
-	width: 730px;
+	width: 1000px;
+  margin-top: 30px;
   text-align: center;
 }
 
-.textarea{
-  height: 20px;
+.textarea{  
+  height: 15px;
 }
 
 .col-2 {
@@ -1137,7 +1135,7 @@ Utilities
 
 .contact-info-title {
 	color: purple;
-  font:bold;
+  text-align: left;
 }
 
 .form-row {

@@ -26,23 +26,22 @@ export default function ContactMe() {
         <input type="email" placeholder="Email" id="user_email" name="user_email" class="full-half"/>
         <input type="text" placeholder="Mobile Number" id="number" name="number"/>
         <input type="text" placeholder="Subject" id="subject" name="subject"/>
-        <textarea class="textarea" placeholder="Message" id="message"  name="message"></textarea>
+        <textarea className="textarea" placeholder="Message" id="message" name="message"></textarea>
         <input type="submit" id="button" value="Send Email" />    
           <div class="col-1">
-            <div class="address-line">
-              <img alt="location" src="./img/marker.png" class="icon"/>
+              <img alt="location" src="./img/marker.png" class="icon1"/>
               <div class="contact-info">
-                <span class="contact-info-title">Coimbatore</span>
+                <h5 class="contact-info-title">Coimbatore</h5>
               </div>
-              <img alt="location" src="./img/phone.png" class="icon"/>
+              <img alt="location" src="./img/phone.png" class="icon1"/>
               <div class="contact-info">
-                <p class="contact-info-title">+44 7407834459</p>
+                <h5 class="contact-info-title"><img alt="location" src="./img/India.png"></img> +91 94470 57803,+91 88385 38822</h5>
+                <h5 class="contact-info-title"><img alt="location" src="./img/UK.png"></img> +44 7407834459</h5>                
               </div>
-              <img alt="location" src="./img/mail.png" class="icon"/>
+              <img alt="location" src="./img/mail.png" class="icon1"/>
               <div class="contact-info">
-              <p class="contact-info-title">ab4success.2023@gmail.com</p>
+              <h5 class="contact-info-title">ab4success.2023@gmail.com</h5>
               </div>
-            </div>
           </div>
       </form>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
