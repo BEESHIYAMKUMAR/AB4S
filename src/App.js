@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <Navbar />
+          
           <Routes>
             {/* <Route path="http://localhost:3000" element={<AboutMe />}></Route> */}
             <Route path="/" element={<Home />}></Route>
